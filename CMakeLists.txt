@@ -1,0 +1,5 @@
+project(HTTP接口调试)
+file(GLOB SRC ./*.c)
+add_definitions("-DUNICODE" "-D_UNICODE")
+add_executable(HTTP接口调试 WIN32 ${SRC})
+set(EXECUTABLE_OUTPUT_PATH ../)

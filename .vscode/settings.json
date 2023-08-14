@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "winapifamily.h": "c",
+        "stdlib.h": "c",
+        "windows.h": "c",
+        "widget.h": "c"
+    }
+}

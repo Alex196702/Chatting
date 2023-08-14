@@ -1,0 +1,10 @@
+^G:\HTTP接口调试\BUILD\CMAKEFILES\175BBE6EA17DA8E2874FAE86463D1A75\GENERATE.STAMP.RULE
+setlocal
+D:\VS\IDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SG:/HTTP接口调试 -BG:/HTTP接口调试/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file G:/HTTP接口调试/build/HTTP接口调试.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
